@@ -1,0 +1,268 @@
+/*  <div class="calc-header">
+            
+<input type="text" id="display" disabled>
+<div>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>÷</button>
+</div>
+<div>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>*</button>
+</div>
+<div>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>-</button>
+</div>
+<div>
+    <button>0</button>
+    <button>.</button>
+    <button>=</button>
+    <button>+</button>
+</div>
+<div>
+    <button>AC</button>
+</div>
+</div> */
+
+  
+/* .calculator button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .calculator button:hover {
+    background-color: #ddd;
+  }
+   */
+
+@charset "UTF-8"; 
+ CSS Document 
+
+ ul li{
+    list-style: none;
+    /* text-decoration: none; */
+    margin-bottom: 5px;
+    padding-left:  0px;
+
+} 
+ 
+
+
+li{
+   
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding-left:  0px;
+
+} 
+
+.header-section {
+    background:#F2E9E1; 
+    background-image: url(../images/placeholder.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:410px; 
+}
+
+h1, .fancy-text, h2, h3 { font-family: times; }
+
+.fancy-text {
+    font-size:26px;
+    line-height: 1.6;
+}
+
+.tagline-section {
+    height:470px; 
+    background-image:url(../images/banner.jpeg);
+}
+
+.features-section h3 { margin:15px 0; }
+
+.newsletter-section {
+    background:#9D2720
+}
+
+.newsletter-section .btn {
+    
+    background:#ffffff; 
+    color:red; 
+    border:1px solid white; 
+}
+
+.footer-section {
+    background:#F2E9E1; 
+}
+
+a { 
+    margin-left: 2px;
+    color:black; }
+
+.c-btn{
+    color: #ffffff;
+}
+.c-btn:hover{
+    background-color: #9D2720;
+    color: #ffffff;
+    
+}
+
+.header-section button{
+    background-color: #c10206;
+    color: #ffffff;
+    border-radius: 10px;
+ }
+
+ 
+ .header-section button:hover{
+    background-color: #9D2720;
+    
+ }
+
+
+
+
+ .blog-header button{
+    background-color: #c10206;
+    color: #ffffff;
+    border-radius: 10px;
+ }
+
+
+ .blog-header button:hover{
+    background-color: #9D2720;
+ }
+ .blog-header{
+    background-color: #ffffff;
+    height: 100hv;
+
+ }
+
+ .blog-section{
+    height:79.33 hv;
+    background:	#fdf3e9; 
+ }
+ 
+ .archive-section{
+    background-color: #ffffff;
+ }
+
+ .archive-heading{
+    color: #c10206;
+
+    font-size: x-large; 
+ }
+ 
+.box1{
+    display: inline-block;
+}
+.box2{
+    display: inline-block;
+}
+.imagetext{
+    margin-left: 200px;
+}
+
+.imagebtn1{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #c10206;
+    border: 1px solid red;
+}
+.imagebtn2{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #c10206;
+    border: 1px solid red;
+}
+.t1{
+margin-left: 2px;
+padding-left: 1px;
+
+}
+
+.t2{
+    margin-left: 2px;
+    padding-left: 1px;
+    
+    }
+
+.p1{
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a:hover{
+    color:red;
+    text-decoration:none;
+}
+
+.concepts-header button{
+    background-color: #c10206;
+    color: #ffffff;
+    border-radius: 10px;
+ }
+
+ .concepts-header button:hover{
+    background-color: #9D2720;
+ }
+ .concepts-header{
+    background-color: #ffffff;
+    height: 100hv;
+
+ }
+
+ .concepts-section{
+    height:79.33 hv;
+    background:	#fdf3e9; 
+ }
+ 
+
+ .imagebtn1:hover{
+    background-color: #c10206;
+    color: #ffffff;
+ }
+
+ /*  */
+ .interview-header button{
+    background-color: #c10206;
+    color: #ffffff;
+    border-radius: 10px;
+ }
+
+ .interview-header button:hover{
+    background-color: #9D2720;
+ }
+ .interview-header{
+    background-color: #ffffff;
+    height: 100hv;
+
+ }
+
+ .interview-section{
+    height:79.33 hv;
+    background:	#fdf3e9; 
+ }
+ 
+
+ .imagebtn1:hover{
+    background-color: #c10206;
+    color: #ffffff;
+ }
